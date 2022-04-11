@@ -156,13 +156,13 @@ request.onload = function() {
     document.getElementById("city_count").textContent = data['台北市'] + "例";
     console.log(data)
     console.log(data['今日本土'])
-    document.getElementById("date1").textContent = "台灣" + data['日期'] + "確診:"
+    document.getElementById("date1").textContent = "【台灣" + data['日期'] + "確診】"
     document.getElementById("Today_all").textContent = data['今日確診']
-    document.getElementById("date2").textContent = data['日期'] + "死亡人數:"
+    document.getElementById("date2").textContent = "【" + data['日期'] + "死亡人數】"
     document.getElementById("death").textContent = data['今日死亡']
-    document.getElementById("date3").textContent = "台灣" + data['日期'] + "本土:"
+    document.getElementById("date3").textContent = "【台灣" + data['日期'] + "本土】"
     document.getElementById("in").textContent = data['今日本土']
-    document.getElementById("date4").textContent = "台灣" + data['日期'] + "境外:"
+    document.getElementById("date4").textContent = " ✈台灣" + data['日期'] + "境外:"
     document.getElementById("out").textContent = parseInt(data['今日確診']) - parseInt(data['今日本土'])
     document.getElementById("南投縣").addEventListener('mouseover',change1)
     document.getElementById("南投縣").addEventListener('mouseout',change0)
