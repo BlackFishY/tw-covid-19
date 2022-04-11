@@ -1,0 +1,83 @@
+head {
+    font-family: 'Fjalla One';
+}
+.title_area{
+    position: relative;
+    left: 0%;
+    top: 5%;
+    color: #FAEBD7;
+    font-size: 270%;
+}
+.counts {
+    position: relative;
+    margin-top: -10%;
+    left: 40%;
+    font-family: 'Fjalla One';
+    font-weight: bold;
+    color: #FF7F50;
+    font-size: 250%;
+}
+.counts2 {
+    position: relative;
+    left: 40%;
+    font-family: 'Fjalla One';
+    font-weight: bold;
+    color: #FF7F50;
+    font-size: 200%;
+}
+#Today_all {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: #FF7F50;
+    font-size: 300%;
+}
+#death {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: #FA8072;
+    font-size: 300%;
+}
+.city {
+    position: absolute;
+    float: left;
+    left: 85vh;
+    margin-top: 30%;
+    width: 30%;
+}
+.city_left {
+    position: absolute;
+    float: left;
+    height: 120vh;
+}
+#city_name {
+    font-family: 'Fjalla One';
+    color: #FAEBD7;
+    font-size: 550%;
+}
+#city_count {
+    font-family: 'Fjalla One';
+    color: #F0E68C;
+    font-size: 400%;
+}
+body {
+    font-family: 'Fjalla One';
+    background-color: #2F4F4F;
+}
+
+.Hold{
+    stroke: white;
+    fill: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+    fill: #2F4F4F;
+}
+.Hold:hover{
+    stroke: white;
+    fill: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+    fill: #DC143C;
+    transform: translate(-2px,-3px);
+}
