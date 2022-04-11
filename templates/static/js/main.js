@@ -204,4 +204,6 @@ request.onload = function() {
     document.getElementById("雲林縣").addEventListener('mouseout',change0)
     document.getElementById("高雄市").addEventListener('mouseover',change21)
     document.getElementById("高雄市").addEventListener('mouseout',change0)
+    document.getElementById("台北市").addEventListener('mouseover',change0)
+    document.getElementById("台北市").addEventListener('mouseout',change0)
 }
